@@ -100,7 +100,7 @@
     
     figure figcaption {font-size: .8em;}
     
-    figure figcaption p {font-size: 13px;}
+    figure figcaption p {font-size: 13px; width: 100%;}
     
     body figure {
         width: 100%;
@@ -486,7 +486,7 @@ figcaption button {
     font-size: 1em;
     background-color: transparent;
     border: 2px solid #fff;
-    transition: 450ms ease;
+    transition: 555ms ease;
 }
 
 .add {
@@ -561,12 +561,12 @@ main {
     margin-right: .6em;
     object-fit: cover;
     margin-top: 1em;
-    transition: all 150ms ease;
+    transition: 450ms ease;
 }
 
 .venom .list img:hover {
     border: .1em solid #960018;
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 
 .venom .list p{

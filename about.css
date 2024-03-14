@@ -116,6 +116,20 @@
     
 }
 
+::selection {
+    color: #000; background-color: rgba(249, 202, 158, .6);
+}
+
+    
+::-webkit-scrollbar {width: .5em;}
+    
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {background-color: transparent; }
+
 
 body {
     background-color: #eee;

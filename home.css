@@ -206,6 +206,17 @@ span {color: #f9ca9e;}
     html .comment div {
         margin-left: -1em;
     }
+    
+    main:hover .main-top-ctn{
+        margin-left: 0em;
+        opacity: 1;
+    }
+
+    .main-top-ctn{
+        margin-left: 0em;
+        opacity: 1;
+        transition: 950ms ease;
+    }
 
 }
 
@@ -873,13 +884,3 @@ main:hover .main-top-ctn{
     filter: brightness(100%);
 }
 
-main:hover section {
-    margin: 0;
-    opacity: 1;
-}
-
-section {
-    margin-top: 3em;
-    transition: 550ms ease;
-    opacity: 0;
-}

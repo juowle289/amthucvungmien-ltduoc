@@ -115,6 +115,16 @@
 }
 
 
+::-webkit-scrollbar {width: .5em;}
+
+::-webkit-scrollbar-thumb {
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {background-color: transparent; }
+
+
 
 body {
     background-color: #000;
